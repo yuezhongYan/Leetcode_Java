@@ -10,6 +10,7 @@ public class Solution {
 	 * Naive implementation of counting the number of 1 bits with Hamming Weight.
 	 * It is naive because it needs 5 * 4 = 20 arithmetic operations.
 	 * Refer: https://en.wikipedia.org/wiki/Hamming_weight
+	 * It relates to Problem 338 to count the number of 1's of i in [0, num].
 	 * 
 	 * @param n number
 	 * @return number of 1 bits
