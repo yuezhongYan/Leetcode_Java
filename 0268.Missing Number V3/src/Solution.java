@@ -21,8 +21,8 @@ class Solution {
 	 * Time complexity is O(n) in the worst case because it takes O(1) for each
 	 * iteration.
 	 * 
-	 * @param nums
-	 * @return
+	 * @param nums given array
+	 * @return the missing number from the array
 	 */
     public int missingNumber(int[] nums) {
         int size = nums.length;
