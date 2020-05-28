@@ -20,8 +20,8 @@ class Solution {
 	 * is O(n), where insertion takes O(n) and for loop takes O(n) with contains()
 	 * taking O(1) since it is a set. The sum of these operations is O(2n) => O(n).
 	 * 
-	 * @param nums
-	 * @return
+	 * @param nums given array
+	 * @return the missing number from the array
 	 */
     public int missingNumber(int[] nums) {
         Set<Integer> set = new HashSet<Integer>();
