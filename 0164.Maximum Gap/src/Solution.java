@@ -7,7 +7,8 @@
 class Solution {
 	/**
 	 * Use least-significant digit radix sort to sort the array. Then find the maximum
-	 * gap.
+	 * gap. Time complexity is O(n * k), where k is the number of digits that the
+	 * maximum number has, which is a constant.
 	 * 
 	 * @param nums
 	 * @return
