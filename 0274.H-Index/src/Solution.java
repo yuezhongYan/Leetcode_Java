@@ -43,6 +43,13 @@ class Solution {
         return hIndex;
     }
     
+    /**
+     * Implement reversed quick sort.
+     * 
+     * @param citations array of citations
+     * @param start start index of citations
+     * @param end end index of citations
+     */
     private void reversedQuickSort(int[] citations, int start, int end){
         if(start >= end){
             return;
