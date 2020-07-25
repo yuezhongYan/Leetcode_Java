@@ -39,8 +39,7 @@ class Solution {
 	 * continue.
 	 * 
 	 * Total time complexity is O(n * k), where n is the number of cars and k is the number of digits.
-	 * The time complexity is dominated by sorting operation. The worst case happens if the pivot index
-	 * is always picked at both ends.
+	 * The time complexity is dominated by sorting operation.
 	 * 
 	 * @param target distance between the destination and 0
 	 * @param position array that contains initial positions of each car
@@ -78,6 +77,11 @@ class Solution {
         return carFleetCount;
     }
     
+    /**
+     * Implement radix sort.
+     * 
+     * @param position array that contains initial positions of each car
+     */
     private void radixSort(int[] position){
         int positionSize = position.length;
         int maxNumber = position[0];
